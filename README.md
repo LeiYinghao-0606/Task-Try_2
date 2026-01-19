@@ -13,6 +13,7 @@ huggingface-cli download bartowski/Qwen2.5-Coder-3B-Instruct-abliterated-GGUF \
   --include "*Q4_K_M*.gguf" \
   --local-dir ./models/qwen2.5-gguf \
   --local-dir-use-symlinks False
+```
 
 ### Train
 ```bash
