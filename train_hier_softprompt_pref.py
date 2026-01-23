@@ -797,7 +797,6 @@ def build_argparser():
     ap.add_argument("--bf16", action="store_true")
     ap.add_argument("--fp16", action="store_true")
     ap.add_argument("--cpu", action="store_true")
-
     return ap
 
 def main():
